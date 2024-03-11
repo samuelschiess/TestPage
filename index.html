@@ -1,17 +1,18 @@
-
-<a class="sliderlink" href="https://travel.utah.edu/christopherson-business-travel/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<a class="sliderlink" href="https://travel.utah.edu/christopherson-business-travel/#pg-400-2" target="_blank">
     <div class="slider">
         <div class="content1">
             <div class="leftcontent">
                 <img class="sliderimg" src="https://travel.utah.edu/wp-content/uploads/sites/56/2023/02/robert-hrovat-3hTBB-ISAJg-unsplash-scaled.jpg" alt="Image"></td>
             </div>
             <div class="rightcontent">
-                <p class="p1">International Trips</p>
-                <p class="p1">Prepare and submit Concur request at <br>
-                     least three weeks prior to the departure date. <br> 
-                     Travel registration submitted less than three weeks <br>
-                      before the departure date will require VP approval.</p>
-                <p class="p1"> Click here to see more</p>
+                <p class="p1"><b>International Trips</b></p>
+                <p class="p1">Prepare and submit Concur request at least three weeks prior to the departure date. Travel registration submitted less than three weeks before the departure date will require VP approval.</p>
             </div>     
         </div>
         <div class="content2">
@@ -19,8 +20,8 @@
                 <img class="sliderimg" src="https://travel.utah.edu/wp-content/uploads/sites/56/2023/02/erik-odiin-jbQvJx2EWnU-unsplash-scaled.jpg" alt="Image"></td>
             </div>
             <div class="rightcontent">
-                <p><b>All Travel Reservation Changes</b></p>
-                <p>Changing a reservation may result in a price change or a new ticket purchase. Reservations made through the Concur booking tool are managed by Christopherson Business Travel. Please contact a travel advisor for assistance.</p>
+                <p class="p2"><b>All Travel Reservation Changes</b></p>
+                <p class="p2">Changing a reservation may result in a price change or a new ticket purchase. Reservations made through the Concur booking tool are managed by Christopherson Business Travel. Please contact a travel advisor for assistance.</p>
             </div> 
         </div>
         <div class="content3">
@@ -28,8 +29,8 @@
                 <img class="sliderimg" src="https://travel.utah.edu/wp-content/uploads/sites/56/2023/02/29c715aaca0259b79281e07f4710d511.png" alt="Image"></td>
             </div>
             <div class="rightcontent">
-                <p><b>Group Travel (10+ travelers on the same reservation)</b></p>
-                <p>Contact Christopherson Business Travel for group pricing after registering a group trip with a submitted Concur request. Group travel cannot be booked within the Concur booking tool.</p>
+                <p class="p3"><b>Group Travel (10+ travelers on the same reservation)</b></p>
+                <p class="p3">Contact Christopherson Business Travel for group pricing after registering a group trip with a submitted Concur request. Group travel cannot be booked within the Concur booking tool.</p>
             </div> 
         </div>
     </div>
@@ -72,22 +73,19 @@
         95% {opacity: 0%;}
     }
     @keyframes changep2 {
-        0% {width: 0%;opacity: 0%;}
-        15% {width: 0%;opacity: 0%;}
-        30% {width: 0%;opacity: 0%;}
-        45% {width: 0%;opacity: 0%;}
-        60% {width: 100%;opacity: 100%;}
-        75% {width: 100%;opacity: 100%;}
-        100% {width: 0%;opacity: 0%;}
+        0% {opacity: 0%;}
+        25% {opacity: 0%;}
+        30% {opacity: 100%;}
+        45% {opacity: 100%;}
+        50% {opacity: 0%;}
     }
     @keyframes changep3 {
-        0% {width: 0%;opacity: 0%;}
-        15% {width: 0%;opacity: 0%;}
-        30% {width: 0%;opacity: 0%;}
-        45% {width: 0%;opacity: 0%;}
-        60% {width: 100%;opacity: 100%;}
-        75% {width: 100%;opacity: 100%;}
-        100% {width: 0%;opacity: 0%;}
+        0% {opacity: 0%;}
+        55% {opacity: 0%;}
+        60% {opacity: 100%;}
+        75% {opacity: 100%;}
+        80% {opacity: 0%;}
+        100% {opacity: 0%;}
     }
     .content1 {
         display: flex;
@@ -95,7 +93,7 @@
         height: 100%;
         background-color: #BE0000;
         animation-name: changeslide1;
-        animation-duration: 12s;
+        animation-duration: 16s;
         animation-iteration-count: infinite;
     }
     .content2 {
@@ -104,7 +102,7 @@
         height: 100%;
         background-color: #BE0000;
         animation-name: changeslide2;
-        animation-duration: 12s;
+        animation-duration: 16s;
         animation-iteration-count: infinite;
     }
     .content3 {
@@ -113,7 +111,7 @@
         height: 100%;
         background-color: #BE0000;
         animation-name: changeslide3;
-        animation-duration: 12s;
+        animation-duration: 16s;
         animation-iteration-count: infinite;
     }
     h1 {
@@ -121,11 +119,22 @@
     }
     .p1 {
         animation-name: changep1;
-        animation-duration: 12s;
+        animation-duration: 16s;
+        animation-iteration-count: infinite;
+    }
+    .p2 {
+        animation-name: changep2;
+        animation-duration: 16s;
+        animation-iteration-count: infinite;
+    }
+    .p3 {
+        animation-name: changep3;
+        animation-duration: 16s;
         animation-iteration-count: infinite;
     }
     .rightcontent {
         max-height: 150px;
+        max-width: 60%;
         overflow: hidden;
         padding-left: 10px;
         color: #FFFFFF;
@@ -134,7 +143,7 @@
         display: flex;
         height: 150px;
         border: 5px solid #FFFFFF;
-        border-radius: 10px;
+        font-family: 'Source Sans 3';
     }
     .sliderimg {
         width: auto;
