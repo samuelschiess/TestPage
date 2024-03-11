@@ -1,0 +1,188 @@
+
+<a class="sliderlink" href="https://travel.utah.edu/christopherson-business-travel/">
+    <div class="slider">
+        <div class="content1">
+            <div class="leftcontent">
+                <img class="sliderimg" src="https://travel.utah.edu/wp-content/uploads/sites/56/2023/02/robert-hrovat-3hTBB-ISAJg-unsplash-scaled.jpg" alt="Image"></td>
+            </div>
+            <div class="rightcontent">
+                <p class="p1">International Trips</p>
+                <p class="p1">Prepare and submit Concur request at <br>
+                     least three weeks prior to the departure date. <br> 
+                     Travel registration submitted less than three weeks <br>
+                      before the departure date will require VP approval.</p>
+                <p class="p1"> Click here to see more</p>
+            </div>     
+        </div>
+        <div class="content2">
+            <div class="leftcontent">
+                <img class="sliderimg" src="https://travel.utah.edu/wp-content/uploads/sites/56/2023/02/erik-odiin-jbQvJx2EWnU-unsplash-scaled.jpg" alt="Image"></td>
+            </div>
+            <div class="rightcontent">
+                <p><b>All Travel Reservation Changes</b></p>
+                <p>Changing a reservation may result in a price change or a new ticket purchase. Reservations made through the Concur booking tool are managed by Christopherson Business Travel. Please contact a travel advisor for assistance.</p>
+            </div> 
+        </div>
+        <div class="content3">
+            <div class="leftcontent">
+                <img class="sliderimg" src="https://travel.utah.edu/wp-content/uploads/sites/56/2023/02/29c715aaca0259b79281e07f4710d511.png" alt="Image"></td>
+            </div>
+            <div class="rightcontent">
+                <p><b>Group Travel (10+ travelers on the same reservation)</b></p>
+                <p>Contact Christopherson Business Travel for group pricing after registering a group trip with a submitted Concur request. Group travel cannot be booked within the Concur booking tool.</p>
+            </div> 
+        </div>
+    </div>
+</a>
+
+<h1>Test Text (hopefully this doesn't shift up and down during animations)</h1>
+
+<style>
+    @keyframes changeslide1 {
+        0% {width: 100%;opacity: 100%;}
+        15% {width: 100%;opacity: 100%;}
+        30% {width: 0%;opacity: 0%;}
+        45% {width: 0%;opacity: 0%;}
+        60% {width: 0%;opacity: 0%;}
+        75% {width: 0%;opacity: 0%;}
+        100% {width: 100%;opacity: 100%;}
+    }
+    @keyframes changeslide2 {
+        0% {width: 0%;opacity: 0%;}
+        15% {width: 0%;opacity: 0%;}
+        30% {width: 100%;opacity: 100%;}
+        45% {width: 100%;opacity: 100%;}
+        60% {width: 0%;opacity: 0%;}
+        75% {width: 0%;opacity: 0%;}
+        100% {width: 0%;opacity: 0%;}
+    } 
+    @keyframes changeslide3 {
+        0% {width: 0%;opacity: 0%;}
+        15% {width: 0%;opacity: 0%;}
+        30% {width: 0%;opacity: 0%;}
+        45% {width: 0%;opacity: 0%;}
+        60% {width: 100%;opacity: 100%;}
+        75% {width: 100%;opacity: 100%;}
+        100% {width: 0%;opacity: 0%;}
+    }
+    @keyframes changep1 {
+        0% {opacity: 100%;}
+        15% {opacity: 100%;}
+        20% {opacity: 0%;}
+        95% {opacity: 0%;}
+    }
+    @keyframes changep2 {
+        0% {width: 0%;opacity: 0%;}
+        15% {width: 0%;opacity: 0%;}
+        30% {width: 0%;opacity: 0%;}
+        45% {width: 0%;opacity: 0%;}
+        60% {width: 100%;opacity: 100%;}
+        75% {width: 100%;opacity: 100%;}
+        100% {width: 0%;opacity: 0%;}
+    }
+    @keyframes changep3 {
+        0% {width: 0%;opacity: 0%;}
+        15% {width: 0%;opacity: 0%;}
+        30% {width: 0%;opacity: 0%;}
+        45% {width: 0%;opacity: 0%;}
+        60% {width: 100%;opacity: 100%;}
+        75% {width: 100%;opacity: 100%;}
+        100% {width: 0%;opacity: 0%;}
+    }
+    .content1 {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: #BE0000;
+        animation-name: changeslide1;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+    }
+    .content2 {
+        display: flex;
+        width: 0%;
+        height: 100%;
+        background-color: #BE0000;
+        animation-name: changeslide2;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+    }
+    .content3 {
+        display: flex;
+        width: 0%;
+        height: 100%;
+        background-color: #BE0000;
+        animation-name: changeslide3;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+    }
+    h1 {
+        background-color: blanchedalmond;
+    }
+    .p1 {
+        animation-name: changep1;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+    }
+    .rightcontent {
+        max-height: 150px;
+        overflow: hidden;
+        padding-left: 10px;
+        color: #FFFFFF;
+    }
+    .slider {
+        display: flex;
+        height: 150px;
+        border: 5px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .sliderimg {
+        width: auto;
+        height: 150px;
+    }
+    .sliderlink {
+        text-decoration: none;
+    }
+    td {
+        vertical-align: top;
+        max-height: 90px;
+        overflow: hidden;
+    }
+
+    /* .slider {
+        display:flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: auto;
+        scroll-snap-type: mandatory;
+        scroll-padding: auto;
+    }
+    .slider > div {
+        flex-shrink: 0;
+        width: 300px;
+        height: 300px;
+    } */
+</style>
+
+
+<!-- <table style="text-align: center;">
+    <tr style="text-align: center;">
+        <td style="text-align: center;"><b>TRAVEL</b> BOOKING QUESTIONS</td>
+    </tr>
+    <tr>
+        <table style="border: 1px solid #708E99; border-collapse: collapse;">
+            <tr style="border: 1px solid #708E99; border-collapse: collapse;">
+                <td style="background-color: #708E99;"><img src="C:\Users\u0871272\OneDrive - University of Utah\Pictures\Picture11.svg" alt="Image"></td>
+            </tr>
+            <tr style="border: 1px solid #708E99; border-collapse: collapse;">
+                <td style="border: 1px solid #708E99; border-collapse: collapse;">
+                    <p>Christopherson Business Travel (CBT) Advisors</p>
+                    <p>Christopherson Business Travel (CBT) Advisors</p>
+                    <p>Mon-Fri 8-5 MT | (801) 587-9005</p>
+                    <p><a href="mailto:travelagency@utah.edu">TravelAgency@utah.edu</a></p>
+                    <p>Emergency After Hours (888) 739-7011</p>
+                    <p><a href="mailto:travelagency@utah.edu">EMAIL US</a></p>
+                </td>
+            </tr>
+        </table>
+    </tr>
+</table> -->
